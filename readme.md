@@ -20,8 +20,10 @@ For example, if we want a red box with a white font with a font-weight of 300  a
 ```css
 // Bad
 .red-box
-    margin: 20px
-    padding: 20px
+    margin-bottom: 20px
+    margin-top: 15px
+    padding-left: 20px
+    padding-right: 30px
     color: white
     font-weight: 300
     background: red
@@ -33,7 +35,9 @@ For example, if we want a red box with a white font with a font-weight of 300  a
 
     background: red
 
-    margin: 20px
+    margin-bottom: 20px
+    margin-top: 15px
 
-    padding: 20px
+    padding-left: 20px
+    padding-right: 30px
 ```
