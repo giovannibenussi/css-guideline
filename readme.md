@@ -4,7 +4,7 @@ This is a guideline to design scalable and maintainable sass files.
 
 The basic anatomy of a rule declaration is as follows:
 
-```
+```css
 .my-class
     // Font related style
     // General element style
@@ -17,7 +17,7 @@ Each section should be separated visually by a newline.
 
 For example, if we want a red box with a white font with a font-weight of 300  and 20px of margin and padding we should write something like this:
 
-```
+```css
 // Bad
 .red-box
     margin: 20px
