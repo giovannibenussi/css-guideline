@@ -42,6 +42,23 @@ For example, if we want a red box with a white font with a font-weight of 300  a
     padding-right: 30px
 ```
 
+## Font and general rule organization
+In the font and general rule declaration, you should organize the properties in alphabetical order:
+
+```css
+// Bad
+font-size: 14px
+color: white
+font-weight: 300
+font-style: italic
+
+// Good
+color: white
+font-size: 14px
+font-style: italic
+font-weight: 300
+```
+
 ## Margin and padding rule organization
 When you declare a margin or padding rule, you should follow the following order (the same for padding):
 
