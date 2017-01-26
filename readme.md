@@ -41,3 +41,14 @@ For example, if we want a red box with a white font with a font-weight of 300  a
     padding-left: 20px
     padding-right: 30px
 ```
+
+## Margin and padding rule organization
+When you declare a margin or padding rule, you should follow the following order (the same for padding):
+
+```css
+margin
+margin-bottom
+margin-top
+margin-left
+margin-right
+```
