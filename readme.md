@@ -13,7 +13,7 @@ This is a guideline written with the purpose of have a common coding style and c
 
 # Doctrine
 - Never use _id selectors_
-- Never include _margin_ related rules inside a component definition
+- Never include position related rules inside a component definition (margin, position, etc), because they will make your component not reusable
 
 # Rule Declaration Anatomy
 
