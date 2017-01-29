@@ -7,21 +7,19 @@ The basic anatomy of a rule declaration is as follows:
 ```css
 .my-class
     // Font related style
+
     // General element style
 
-    // Margin related style
     // Padding related style
 ```
 
 Each section should be separated visually by a newline.
 
-For example, if we want a red box with a white font with a font-weight of 300  and 20px of margin and padding we should write something like this:
+For example, if we want a red box with a white font with a font-weight of 300  and 20px of padding we should write something like this:
 
 ```css
 // Bad
 .red-box
-    margin-bottom: 20px
-    margin-top: 15px
     padding-left: 20px
     padding-right: 30px
     color: white
@@ -34,9 +32,6 @@ For example, if we want a red box with a white font with a font-weight of 300  a
     font-weight: 300
 
     background: red
-
-    margin-bottom: 20px
-    margin-top: 15px
 
     padding-left: 20px
     padding-right: 30px
@@ -60,12 +55,12 @@ font-weight: 300
 ```
 
 ## Margin and padding rule organization
-When you declare a margin or padding rule, you should follow the following order (the same for padding):
+When you declare a margin or padding rule, you should follow the order botton-top-left-right as follows (the same for margin):
 
 ```css
-margin
-margin-bottom
-margin-top
-margin-left
-margin-right
+padding
+padding-bottom
+padding-top
+padding-left
+padding-right
 ```
