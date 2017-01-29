@@ -1,5 +1,9 @@
 This is a guideline to design scalable and maintainable sass files.
 
+# Doctrine
+- Never use _id selectors_
+- Never include _margin_ related rules inside a component definition
+
 # Rule Declaration Anatomy
 
 The basic anatomy of a rule declaration is as follows:
