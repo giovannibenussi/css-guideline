@@ -81,3 +81,10 @@ padding-top
 padding-left
 padding-right
 ```
+
+# Components
+With the purpose of scaling and making our css maintainable, we will use the following elements:
+* Block: A functionally independent page component that can be reused ([source](https://en.bem.info/methodology/quick-start/#block)). For example, if you have a component that is or will be reused, you have to make a block for it. If a block contains another reusable component inside it, it should be also another independent block. Thus, a block can have blocks inside it.
+* Element: A composite part of a block that can't be used separately from it. ((source)[https://en.bem.info/methodology/quick-start/#element]).
+
+As a rule of thumb, you can't have a component in your website that isn't a block or an element.
