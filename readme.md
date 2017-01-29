@@ -20,12 +20,13 @@ This is a guideline written with the purpose of have a common coding style and c
 The basic anatomy of a rule declaration is as follows:
 
 ```css
-.my-class
+.my-class {
     // Font related style
 
     // General element style
 
     // Padding related style
+}
 ```
 
 Each section should be separated visually by a newline.
@@ -34,15 +35,15 @@ For example, if we want a red box with a white font with a font-weight of 300  a
 
 ```css
 // Bad
-.red-box
+.red-box {
     padding-left: 20px
     padding-right: 30px
     color: white
     font-weight: 300
     background: red
-
+}
 // Good
-.red-box
+.red-box {
     color: white
     font-weight: 300
 
@@ -50,6 +51,7 @@ For example, if we want a red box with a white font with a font-weight of 300  a
 
     padding-left: 20px
     padding-right: 30px
+}
 ```
 
 ## Font and general rule organization
