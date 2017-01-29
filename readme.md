@@ -1,4 +1,4 @@
-This is a guideline to design scalable and maintainable sass files.
+A guideline to design scalable and maintainable stylesheets.
 
 # Introduction
 This is a guideline written with the purpose of have a common coding style and conventions, thus allowing developers to rapid and easily find where they should make certain changes. It's simple, if you and your team follow this recommendations, all of you will benefit from a reduced amount of time required in finding the code that modifies some element and the time spent knowing where modify certain properties (color, font-type, padding, etc).
